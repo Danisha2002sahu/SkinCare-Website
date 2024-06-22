@@ -74,10 +74,19 @@ h2 {
   }
 .GenderButtons{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  float:right;
+  border: transparent;
 }
 
-
+.genderimage {
+  width: 100%; /* or any size you want */
+  height: 100px; /* maintain aspect ratio */
+  background-color: transparent;
+  border: none;
+}
+button {
+  border: none; /* remove the border */
+  background-color: transparent; /* make the background transparent */
+}
   

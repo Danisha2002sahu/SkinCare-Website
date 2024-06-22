@@ -16,11 +16,14 @@ import './homepage.css';
       }
 
 
+// As we are supposed to show all the components of homepage.js as a whole page on the website
+// Insted of exporting and importing all the components indivisually we will wrap it in a parentcomponent and export the parentcomponent
+// As wholePage.
       function TotalhomePage(){
         return(
-            <>
+            <div>
             <Navbar/>
-            </>
+            </div>
         )
       }
     

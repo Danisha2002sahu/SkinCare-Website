@@ -1,31 +1,40 @@
 nav {
-  background-color: #1b180d; /* Navbar background color */
+  background-color: #1b180d; 
   padding: 10px 20px;
-  position: fixed; /* Fix the navbar to the top */
-  width: 100%; /* Full width */
-  top: 0; /* Align to top */
-  right: 0; /* Align to left */
-  z-index: 1000; /* Ensure it stays on top */
+  position: fixed;
+  width: 100%; 
+  top: 0; 
+  right: 0; 
+  z-index: 1000; 
 }
 
 nav ul {
-  list-style: none; /* Remove bullet points */
-  display: flex; /* Align items horizontally */
+  list-style: none;
+  display: flex; 
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  margin: 0 15px; /* Space between navigation items */
+  margin: 0 15px;
 }
 
 nav ul li a {
-  color: #fff; /* Text color */
-  text-decoration: none; /* Remove underline from links */
-  font-size: 1.2em; /* Increase font size */
-  transition: color 0.3s; /* Smooth transition for hover effect */
+  color: #fff;
+  text-decoration: none; 
+  font-size: 1.2em; 
+  transition: color 0.3s; 
 }
 
 nav ul li a:hover {
-  color: #333; /* Change text color on hover */
+  color: #333; 
+}
+.HomepageTopSection img{
+  height: 50vh;
+  width: 100vh;
+}
+.ProductCarousel {
+  height: 40%;
+  width: 30%;
+  border:2px #1b180d;
 }
